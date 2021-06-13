@@ -23,4 +23,4 @@ An expense tracker application that helps to keep an accurate record of your mon
 
 #### Demo
 
-[Here](https://expense-tracker-yanai.herokuapp.com/)
+- [Here](https://expense-tracker-yanai.herokuapp.com/)
