@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { numberWithCommas } from '../utils/format';
 
 export const IncomeExpenses = () => {
   const transactions = useSelector(
@@ -22,11 +23,11 @@ export const IncomeExpenses = () => {
     <div className='inc-exp-container'>
       <div>
         <h4>Income</h4>
-        <p className='money plus'>{totalIncome}$</p>
+        <p className='money plus'>{numberWithCommas(totalIncome)}$</p>
       </div>
       <div>
         <h4>Expense</h4>
-        <p className='money minus'>{totalExpense}$</p>
+        <p className='money minus'>{numberWithCommas(totalExpense)}$</p>
       </div>
     </div>
   );

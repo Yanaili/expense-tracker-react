@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { numberWithCommas } from '../utils/format';
 
 export const Balance = () => {
   const transactions = useSelector(
@@ -11,7 +12,7 @@ export const Balance = () => {
   return (
     <>
       <h4>Your Balance:</h4>
-      <h1>{total}$</h1>
+      <h1>{numberWithCommas(total)}$</h1>
     </>
   );
 };
