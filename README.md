@@ -11,7 +11,6 @@ An expense tracker application that helps to keep an accurate record of your mon
 - Hooks
 - HTML, CSS, Javascript
 - Npm
-- Material-UI
 
 ### Back-end
 
