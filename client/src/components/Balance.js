@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { numberWithCommas } from '../utils/format';
 
+// test
 export const Balance = () => {
   const transactions = useSelector(
     (state) => state.transactionsState.transactions
